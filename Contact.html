@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Class site</title>
+	<link type="text/css" rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+<div id="container">
+	<div id="logo"></div>
+	<nav id="nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Products.html">Products</a></li>
+			<li><a href="About.html">About</a></li>
+			<li><a class="active" href="Contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<div id="first_col">
+			<div>
+
+				<h3 class="animated slideInRight" >Contact Us (This Form has JavaScript validation)</h3>
+				<p class="crumb">We have a great team on support who will get back to you ASAP!</p>
+				<form action="" method="POST" id="form" onsubmit="return checkForm();">
+					<label>Name *</label><br />
+					<input type="text" name="name" id="name" /><span id="invalid_n" class="animated slideInRight"></span><br /><br />
+					<label>Email *</label><br />
+					<input type="email" name="email" id="email" /><span id="invalid_e" class="animated slideInRight"></span><br /><br />
+					<label>Subject *</label><br />
+					<input type="text" name="subject" id="subject" /><span id="invalid_s" class="animated slideInRight"></span><br /><br />
+					<label>Message:</label><br />
+					<textarea placeholder="What's on your mind..." id="message"></textarea><span id="invalid_m" class="animated slideInRight"></span><br /><br />
+					<input type="submit" value="Send message" id="submit" /><input type="reset" />
+				</form>
+<script type="text/javascript" src="js/validate.js"></script>			
+			</div>
+			<div>
+				<h3>Highly Relevant Courses</h3>
+				<p class="crumb">Courses that help building your career...</p>
+				<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+				</p>
+			</div>
+	</div>
+	<aside>
+		<div>
+			<h3>Events this week</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+		</div>
+		<div>
+			<h3>News this week</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+		</div>
+		<div>
+			<h3>Courses at NCI</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+		</div>
+	</aside>
+	<footer>
+		<p>&copy; Footer</p>
+	</footer>
+</div><!-- container-->
+</body>
+</html>
